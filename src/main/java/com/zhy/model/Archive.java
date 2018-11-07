@@ -17,5 +17,23 @@ public class Archive {
      */
     private String archiveName;
 
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getArchiveName() {
+		return archiveName;
+	}
+
+	public void setArchiveName(String archiveName) {
+		this.archiveName = archiveName;
+	}
+    
+    
+
 
 }

@@ -41,4 +41,46 @@ public class ArticleLikesRecord {
         this.likerId = likerId;
         this.likeDate = likeDate;
     }
+
+	public long getId() {
+		return id;
+	}
+
+	public void setId(long id) {
+		this.id = id;
+	}
+
+	public long getArticleId() {
+		return articleId;
+	}
+
+	public void setArticleId(long articleId) {
+		this.articleId = articleId;
+	}
+
+	public String getOriginalAuthor() {
+		return originalAuthor;
+	}
+
+	public void setOriginalAuthor(String originalAuthor) {
+		this.originalAuthor = originalAuthor;
+	}
+
+	public int getLikerId() {
+		return likerId;
+	}
+
+	public void setLikerId(int likerId) {
+		this.likerId = likerId;
+	}
+
+	public String getLikeDate() {
+		return likeDate;
+	}
+
+	public void setLikeDate(String likeDate) {
+		this.likeDate = likeDate;
+	}
+    
+    
 }
