@@ -122,7 +122,7 @@ public class CommentControl {
             return jsonArray;
         }
 
-        comment.setPId(Long.parseLong(parentId.substring(1)));
+        comment.setpId(Long.parseLong(parentId.substring(1)));
         comment.setAnswererId(userService.findIdByUsername(username));
         comment.setRespondentId(userService.findIdByUsername(respondent));
         comment.setOriginalAuthor(TransCodingUtil.unicodeToString(comment.getOriginalAuthor()));
@@ -178,11 +178,11 @@ public class CommentControl {
         TimeUtil timeUtil = new TimeUtil();
         CommentLikesRecord commentLikesRecord = new CommentLikesRecord(Long.parseLong(articleId), TransCodingUtil.unicodeToString(originalAuthor),
                 Integer.parseInt(respondentId.substring(1)),userService.findIdByUsername(username),timeUtil.getFormatDateForFive());
-        if(commentLikesRecordService.isLiked(commentLikesRecord.getArticleId(), commentLikesRecord.getOriginalAuthor(), commentLikesRecord.getPId(), username)){
+        if(commentLikesRecordService.isLiked(commentLikesRecord.getArticleId(), commentLikesRecord.getOriginalAuthor(), commentLikesRecord.getpId(), username)){
             logger.info("This user had clicked good for this article");
             return -2;
         }
-        int likes = commentService.updateLikeByArticleIdAndOriginalAuthorAndId(commentLikesRecord.getArticleId(),commentLikesRecord.getOriginalAuthor(),commentLikesRecord.getPId());
+        int likes = commentService.updateLikeByArticleIdAndOriginalAuthorAndId(commentLikesRecord.getArticleId(),commentLikesRecord.getOriginalAuthor(),commentLikesRecord.getpId());
         System.out.println("This comment's likes is " + likes);
         commentLikesRecordService.insertCommentLikesRecord(commentLikesRecord);
         return likes;

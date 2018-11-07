@@ -141,7 +141,7 @@ public class LeaveMessageServiceImpl implements LeaveMessageService {
             leaveMessageJson.put("pageName",leaveMessage.getPageName());
             leaveMessageJson.put("answerer",username);
             leaveMessageJson.put("leaveMessageDate",leaveMessage.getLeaveMessageDate());
-            if(leaveMessage.getPId() == 0){
+            if(leaveMessage.getpId() == 0){
                 leaveMessageJson.put("leaveMessageContent",leaveMessage.getLeaveMessageContent());
                 leaveMessageJson.put("replyNum",leaveMessageMapper.countReplyNumById(leaveMessage.getId()));
             } else {
@@ -176,7 +176,7 @@ public class LeaveMessageServiceImpl implements LeaveMessageService {
         JSONObject jsonObject;
         for(LeaveMessage leaveMessage : fiveLeaveWords){
             jsonObject = new JSONObject();
-            if(leaveMessage.getPId() != 0){
+            if(leaveMessage.getpId() != 0){
                 leaveMessage.setLeaveMessageContent("@" + userService.findUsernameById(leaveMessage.getRespondentId()) + " " + leaveMessage.getLeaveMessageContent());
             }
             jsonObject.put("pagePath",leaveMessage.getPageName());

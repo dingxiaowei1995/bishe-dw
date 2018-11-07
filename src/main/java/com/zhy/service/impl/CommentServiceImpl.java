@@ -157,7 +157,7 @@ public class CommentServiceImpl implements CommentService {
 
         for(Comment comment : fiveComments){
             jsonObject = new JSONObject();
-            if(comment.getPId() != 0){
+            if(comment.getpId() != 0){
                 comment.setCommentContent("@" + userService.findUsernameById(comment.getRespondentId()) + " " + comment.getCommentContent());
             }
             jsonObject.put("articleId",comment.getArticleId());
@@ -200,12 +200,12 @@ public class CommentServiceImpl implements CommentService {
             commentJson.put("originalAuthor",comment.getOriginalAuthor());
             commentJson.put("articleTitle",articleService.findArticleTitleByArticleIdAndOriginalAuthor(comment.getArticleId(), comment.getOriginalAuthor()).get("articleTitle"));
             commentJson.put("answerer", username);
-            if(comment.getPId() == 0){
+            if(comment.getpId() == 0){
                 commentJson.put("commentContent",comment.getCommentContent());
                 commentJson.put("replyNum",commentMapper.countReplyNumById(comment.getId()));
             } else {
                 commentJson.put("commentContent","@" + userService.findUsernameById(comment.getRespondentId()) + " " + comment.getCommentContent());
-                commentJson.put("replyNum",commentMapper.countReplyNumByIdAndRespondentId(comment.getPId(), userId, comment.getId()));
+                commentJson.put("replyNum",commentMapper.countReplyNumByIdAndRespondentId(comment.getpId(), userId, comment.getId()));
             }
             commentJson.put("commentDate",comment.getCommentDate());
             commentJsonArray.add(commentJson);
