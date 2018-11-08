@@ -15,8 +15,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import javax.servlet.http.HttpServletRequest;
 
 /**
- * @author: zhangocean
- * @Date: 2018/6/4 15:03
  * Describe: 注册获得手机验证码
  */
 @Controller

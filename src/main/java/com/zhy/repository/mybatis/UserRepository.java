@@ -4,8 +4,6 @@ import com.zhy.model.User;
 import org.springframework.stereotype.Repository;
 
 /**
- * @author: zhangocean
- * @Date: 2018/6/5 19:37
  * Describe:xml配置User表操作
  */
 @Repository

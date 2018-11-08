@@ -26,8 +26,6 @@ import java.util.concurrent.Executors;
 
 
 /**
- * @author: zhangocean
- * @Date: 2018/7/21 11:29
  * Describe: 文件工具
  */
 public class FileUtil {

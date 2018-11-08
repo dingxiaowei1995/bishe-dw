@@ -8,7 +8,7 @@ import org.apache.ibatis.annotations.Select;
 import org.springframework.stereotype.Repository;
 
 /**
- * @author: zhangocean
+ *  
  * @Date: 2018/7/7 15:51
  * Describe: 文章点赞sql
  */

@@ -3,7 +3,7 @@ package com.zhy.model;
 import lombok.Data;
 
 /**
- * @author: zhangocean
+ *  
  * @Date: 2018/7/22 20:15
  * Describe: 悄悄话
  */
