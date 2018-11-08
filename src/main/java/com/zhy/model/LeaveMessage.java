@@ -57,4 +57,69 @@ public class LeaveMessage {
         this.leaveMessageDate = leaveMessageDate;
         this.leaveMessageContent = leaveMessageContent;
     }
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getPageName() {
+		return pageName;
+	}
+
+	public void setPageName(String pageName) {
+		this.pageName = pageName;
+	}
+
+	public int getpId() {
+		return pId;
+	}
+
+	public void setpId(int pId) {
+		this.pId = pId;
+	}
+
+	public int getAnswererId() {
+		return answererId;
+	}
+
+	public void setAnswererId(int answererId) {
+		this.answererId = answererId;
+	}
+
+	public int getRespondentId() {
+		return respondentId;
+	}
+
+	public void setRespondentId(int respondentId) {
+		this.respondentId = respondentId;
+	}
+
+	public String getLeaveMessageDate() {
+		return leaveMessageDate;
+	}
+
+	public void setLeaveMessageDate(String leaveMessageDate) {
+		this.leaveMessageDate = leaveMessageDate;
+	}
+
+	public int getLikes() {
+		return likes;
+	}
+
+	public void setLikes(int likes) {
+		this.likes = likes;
+	}
+
+	public String getLeaveMessageContent() {
+		return leaveMessageContent;
+	}
+
+	public void setLeaveMessageContent(String leaveMessageContent) {
+		this.leaveMessageContent = leaveMessageContent;
+	}
+    
 }

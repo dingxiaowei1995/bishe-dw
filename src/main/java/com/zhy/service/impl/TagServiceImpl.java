@@ -34,7 +34,12 @@ public class TagServiceImpl implements TagService {
         List<Tag> tags = tagMapper.findTagsCloud();
         JSONObject jsonObject = new JSONObject();
         jsonObject.put("status",200);
-        jsonObject.put("result",JSONArray.fromObject(tags));
+        //jsonObject.put("result",JSONArray.fromObject(tags));
+        JSONArray jon=new JSONArray();
+        for(Tag t:tags) {
+        	jon.add(t);
+        }
+        jsonObject.put("result",jon);
         jsonObject.put("tagsNum",tags.size());
         return jsonObject;
     }

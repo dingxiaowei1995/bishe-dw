@@ -98,7 +98,7 @@ public class LeaveMessageControl {
             jsonObject.put("result","You are not sign in");
         }
         leaveMessage.setAnswererId(userService.findIdByUsername(username));
-        leaveMessage.setPId(Integer.parseInt(parentId.substring(1)));
+        leaveMessage.setpId(Integer.parseInt(parentId.substring(1)));
         leaveMessage = leaveMessageService.publishLeaveMessageReply(leaveMessage, respondent);
 
         return leaveMessageService.leaveMessageNewReply(leaveMessage, username, respondent);
@@ -123,11 +123,11 @@ public class LeaveMessageControl {
         TimeUtil timeUtil = new TimeUtil();
         int userId = userService.findIdByUsername(username);
         LeaveMessageLikesRecord leaveMessageLikesRecord = new LeaveMessageLikesRecord(pageName, Integer.parseInt(respondentId.substring(1)), userId, timeUtil.getFormatDateForFive());
-        if(leaveMessageLikesRecordService.isLiked(leaveMessageLikesRecord.getPageName(), leaveMessageLikesRecord.getPId(), userId)){
+        if(leaveMessageLikesRecordService.isLiked(leaveMessageLikesRecord.getPageName(), leaveMessageLikesRecord.getpId(), userId)){
             logger.info("This user had clicked good for this page");
             return -2;
         }
-        int likes = leaveMessageService.updateLikeByPageNameAndId(pageName, leaveMessageLikesRecord.getPId());
+        int likes = leaveMessageService.updateLikeByPageNameAndId(pageName, leaveMessageLikesRecord.getpId());
         System.out.println("This leaveMessage likes is " + likes);
         leaveMessageLikesRecordService.insertLeaveMessageLikesRecord(leaveMessageLikesRecord);
         return likes;

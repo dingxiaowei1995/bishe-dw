@@ -45,4 +45,53 @@ public class PrivateWord {
         this.publisherId = publisherId;
         this.publisherDate = publisherDate;
     }
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getPrivateWord() {
+		return privateWord;
+	}
+
+	public void setPrivateWord(String privateWord) {
+		this.privateWord = privateWord;
+	}
+
+	public int getPublisherId() {
+		return publisherId;
+	}
+
+	public void setPublisherId(int publisherId) {
+		this.publisherId = publisherId;
+	}
+
+	public int getReplierId() {
+		return replierId;
+	}
+
+	public void setReplierId(int replierId) {
+		this.replierId = replierId;
+	}
+
+	public String getReplyContent() {
+		return replyContent;
+	}
+
+	public void setReplyContent(String replyContent) {
+		this.replyContent = replyContent;
+	}
+
+	public String getPublisherDate() {
+		return publisherDate;
+	}
+
+	public void setPublisherDate(String publisherDate) {
+		this.publisherDate = publisherDate;
+	}
+    
 }
