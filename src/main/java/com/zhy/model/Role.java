@@ -3,7 +3,7 @@ package com.zhy.model;
 import lombok.Data;
 
 /**
- * @author: zhangocean
+ * 
  * @Date: 2018/6/5 19:41
  * Describe: 权限
  */

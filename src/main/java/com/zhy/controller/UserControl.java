@@ -22,7 +22,7 @@ import java.io.File;
 import java.security.Principal;
 
 /**
- * @author: zhangocean
+ * 
  * @Date: 2018/7/20 20:56
  * Describe: 个人中心Controller
  */
