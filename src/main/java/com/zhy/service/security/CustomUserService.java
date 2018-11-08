@@ -16,8 +16,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+<<<<<<< HEAD
  * 
  * @Date: 2018/6/5 19:11
+=======
+>>>>>>> branch 'master' of https://github.com/dingxiaowei1995/bishe-dw.git
  * Describe: 用户登录处理
  */
 @Service

@@ -11,8 +11,11 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 /**
+<<<<<<< HEAD
  * 
  * @Date: 2018/7/17 20:54
+=======
+>>>>>>> branch 'master' of https://github.com/dingxiaowei1995/bishe-dw.git
  * Describe:
  */
 @Service

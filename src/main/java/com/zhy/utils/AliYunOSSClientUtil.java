@@ -17,8 +17,11 @@ import java.net.URL;
 import java.util.Date;
 
 /**
+<<<<<<< HEAD
  * 
  * @Date: 2018/6/10 17:45
+=======
+>>>>>>> branch 'master' of https://github.com/dingxiaowei1995/bishe-dw.git
  * Describe: 阿里云OSS连接
  */
 public class AliYunOSSClientUtil {

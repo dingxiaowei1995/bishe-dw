@@ -12,8 +12,6 @@ import org.springframework.web.bind.annotation.RestController;
 import javax.servlet.http.HttpServletRequest;
 
 /**
- * 
- * @Date: 2018/7/17 20:50
  * Describe: 分类Controller
  */
 @RestController

@@ -12,7 +12,11 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import javax.servlet.http.HttpServletRequest;
 
 /**
+<<<<<<< HEAD
  * 
+=======
+ *  
+>>>>>>> branch 'master' of https://github.com/dingxiaowei1995/bishe-dw.git
  * @Date: 2018/6/8 9:24
  * Describe: 登录控制
  */

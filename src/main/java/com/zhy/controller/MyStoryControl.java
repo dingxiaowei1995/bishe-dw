@@ -8,8 +8,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * 
- * @Date: 2018/7/23 11:44
  * Describe: 我的故事Controller
  */
 @RestController

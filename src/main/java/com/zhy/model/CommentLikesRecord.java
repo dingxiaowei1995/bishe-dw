@@ -3,7 +3,11 @@ package com.zhy.model;
 import lombok.Data;
 
 /**
+<<<<<<< HEAD
  * 
+=======
+ *  
+>>>>>>> branch 'master' of https://github.com/dingxiaowei1995/bishe-dw.git
  * @Date: 2018/7/12 13:43
  * Describe: 文章评论点赞记录
  */

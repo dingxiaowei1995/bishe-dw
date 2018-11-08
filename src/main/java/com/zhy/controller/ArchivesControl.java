@@ -12,8 +12,6 @@ import org.springframework.web.bind.annotation.RestController;
 import javax.servlet.http.HttpServletRequest;
 
 /**
- * 
- * @Date: 2018/7/18 12:06
  * Describe: 成就Controller
  */
 @RestController

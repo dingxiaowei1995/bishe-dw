@@ -2,8 +2,6 @@ package com.zhy.constant;
 
 
 /**
- * 
- * @Date: Created in 14:18 2018/2/3
  * Describe: 权限
  */
 public interface RoleConstant {

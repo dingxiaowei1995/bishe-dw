@@ -4,9 +4,6 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
-/**
- * @author zhyocean
- */
 @SpringBootApplication
 @EnableTransactionManagement
 public class MyBlogApplication {

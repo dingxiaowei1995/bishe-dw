@@ -5,7 +5,11 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 /**
+<<<<<<< HEAD
  * 
+=======
+ *  
+>>>>>>> branch 'master' of https://github.com/dingxiaowei1995/bishe-dw.git
  * @Date: 2018/7/22 20:21
  * Describe:悄悄话业务操作
  */

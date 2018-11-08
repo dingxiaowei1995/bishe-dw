@@ -22,8 +22,11 @@ import java.io.File;
 import java.security.Principal;
 
 /**
+<<<<<<< HEAD
  * 
  * @Date: 2018/7/20 20:56
+=======
+>>>>>>> branch 'master' of https://github.com/dingxiaowei1995/bishe-dw.git
  * Describe: 个人中心Controller
  */
 @RestController

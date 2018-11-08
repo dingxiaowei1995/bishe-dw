@@ -1,8 +1,6 @@
 package com.zhy.constant;
 
 /**
- * 
- * @Date: 2018/6/9 19:45
  * Describe: 阿里云连接密钥
  */
 public class OSSClientConstants {

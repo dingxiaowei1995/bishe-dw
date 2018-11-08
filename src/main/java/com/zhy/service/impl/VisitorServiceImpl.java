@@ -9,8 +9,11 @@ import org.springframework.stereotype.Service;
 import javax.servlet.http.HttpServletRequest;
 
 /**
+<<<<<<< HEAD
  * 
  * @Date: 2018/6/16 16:21
+=======
+>>>>>>> branch 'master' of https://github.com/dingxiaowei1995/bishe-dw.git
  * Describe: 访客实现类
  */
 @Service

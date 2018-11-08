@@ -4,7 +4,11 @@ import org.apache.ibatis.annotations.*;
 import org.springframework.stereotype.Repository;
 
 /**
+<<<<<<< HEAD
  * 
+=======
+ *  
+>>>>>>> branch 'master' of https://github.com/dingxiaowei1995/bishe-dw.git
  * @Date: 2018/6/16 16:22
  * Describe: 访客sql
  */

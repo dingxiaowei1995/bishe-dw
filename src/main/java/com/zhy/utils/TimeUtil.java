@@ -6,8 +6,11 @@ import java.time.format.DateTimeFormatter;
 import java.util.Date;
 
 /**
+<<<<<<< HEAD
  * 
  * @Date: 2018/6/20 19:55
+=======
+>>>>>>> branch 'master' of https://github.com/dingxiaowei1995/bishe-dw.git
  * Describe: 时间工具
  */
 public class TimeUtil {

@@ -26,8 +26,11 @@ import java.util.concurrent.Executors;
 
 
 /**
+<<<<<<< HEAD
  * 
  * @Date: 2018/7/21 11:29
+=======
+>>>>>>> branch 'master' of https://github.com/dingxiaowei1995/bishe-dw.git
  * Describe: 文件工具
  */
 public class FileUtil {

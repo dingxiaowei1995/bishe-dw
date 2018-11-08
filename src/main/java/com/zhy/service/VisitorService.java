@@ -6,7 +6,11 @@ import org.springframework.stereotype.Service;
 import javax.servlet.http.HttpServletRequest;
 
 /**
+<<<<<<< HEAD
  * 
+=======
+ *  
+>>>>>>> branch 'master' of https://github.com/dingxiaowei1995/bishe-dw.git
  * @Date: 2018/6/16 16:19
  * Describe:访客业务操作
  */

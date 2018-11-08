@@ -12,8 +12,11 @@ import org.springframework.web.bind.annotation.RestController;
 import javax.servlet.http.HttpServletRequest;
 
 /**
+<<<<<<< HEAD
  * 
  * @Date: 2018/7/16 21:27
+=======
+>>>>>>> branch 'master' of https://github.com/dingxiaowei1995/bishe-dw.git
  * Describe: 标签Controller
  */
 @RestController
