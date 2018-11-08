@@ -122,7 +122,7 @@ public class EditorControl {
     }
 
     /**
-     * 验证是否有权限写博客
+     * 验证是否有权限写文章
      * @param principal
      * @return
      */

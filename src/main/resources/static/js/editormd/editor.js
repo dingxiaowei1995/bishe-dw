@@ -109,7 +109,7 @@
         $('#removeDiv').append(sec);
     }
 
-    //验证是否有权限写博客
+    //验证是否有权限写文章
     $.ajax({
         type:"GET",
         url:"/canYouWrite",
@@ -120,7 +120,7 @@
             if(data == 0){
                 var noticeBoxWrite = $('<div class="notice-box-write">' +
                     '<div class="am-alert am-alert-danger">' +
-                    '<p>在线写博客功能暂不对外开放，您所写的文章都将发布无效<button type="button" class="canYouWrite am-close">&times;</button></p>' +
+                    '<p>在线写文章功能暂不对外开放，您所写的文章都将发布无效<button type="button" class="canYouWrite am-close">&times;</button></p>' +
                     '</div>' +
                     '</div>');
                 $('#app').append(noticeBoxWrite);
