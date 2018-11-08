@@ -188,7 +188,7 @@ function putInTagsCloud(data){
     var right = $("#right");
     var tagCloud = $('.tag-cloud');
     tagCloud.empty();
-    tagCloud.append($('<h3 class="widget-title">标签云</h3>'));
+    tagCloud.append($('<h3 class="widget-title">标签</h3>'));
     var widgetTagCloud = $('<div class="widget-tag-cloud"></div>');
     $.each(data['result'], function (index, obj) {
         widgetTagCloud.append($('<a href="tags?tag=' + obj['tagName'] + '" style="font-size:' + obj['tagSize'] + 'px">' + obj['tagName'] + '</a>'));
@@ -304,12 +304,16 @@ ajaxFirst(1);
 newCommentAjax(1);
 newLeaveWordAjax(1);
 
+var x=1;
+var y=2;
 //标签云
 $.ajax({
     type: 'GET',
     url: '/findTagsCloud',
     dataType: 'json',
     data: {
+    	id:x,
+        id2:y
     },
     success: function (data) {
         if(data['result'].length == 0){

@@ -11,6 +11,15 @@ public class MyBlogApplicationTests {
 
 	@Test
 	public void contextLoads() {
+		
+	}
+	
+	@Test 
+	public void test1() {
+		int i =1;
+		int a= 2;
+		 int s=i+a;
+		 System.out.println(s);
 	}
 
 }
