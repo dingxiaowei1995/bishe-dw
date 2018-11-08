@@ -85,7 +85,7 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public boolean isSuperAdmin(String phone) {
+    public boolean isSuperadmin(String phone) {
         int userId = userMapper.findUserIdByPhone(phone);
         List<Object> roleIds = userMapper.findRoleIdByUserId(userId);
 

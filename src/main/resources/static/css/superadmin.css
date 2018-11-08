@@ -51,7 +51,7 @@
 #statistics{
     display: block;
 }
-.superAdminClick a:hover{
+.superadminClick a:hover{
     text-decoration: none;
     cursor: pointer;
     background-color: #F0F0F0;

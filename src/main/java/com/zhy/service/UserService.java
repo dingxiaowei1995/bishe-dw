@@ -91,7 +91,7 @@ public interface UserService {
      * @param phone 手机号
      * @return
      */
-    boolean isSuperAdmin(String phone);
+    boolean isSuperadmin(String phone);
 
     /**
      * 更改头像

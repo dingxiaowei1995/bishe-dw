@@ -229,8 +229,8 @@ CREATE TABLE `role` (
 -- Records of role
 -- ----------------------------
 INSERT INTO `role` VALUES ('1', 'ROLE_USER');
-INSERT INTO `role` VALUES ('2', 'ROLE_ADMIN');
-INSERT INTO `role` VALUES ('3', 'ROLE_SUPERADMIN');
+INSERT INTO `role` VALUES ('2', 'ROLE_admin');
+INSERT INTO `role` VALUES ('3', 'ROLE_SUPERadmin');
 
 -- ----------------------------
 -- Table structure for tags

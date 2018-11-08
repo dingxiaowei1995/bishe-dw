@@ -35,7 +35,7 @@ public class SuperAdminControl {
      * @return
      */
     @PostMapping("/getAllPrivateWord")
-    @PreAuthorize("hasAuthority('ROLE_SUPERADMIN')")
+    @PreAuthorize("hasAuthority('ROLE_SUPERadmin')")
     public JSONObject getAllPrivateWord(){
         return privateWordService.getAllPrivateWord();
     }

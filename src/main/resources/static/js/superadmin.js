@@ -1,5 +1,5 @@
 
-    $('.superAdminList .superAdminClick').click(function () {
+    $('.superadminList .superadminClick').click(function () {
         var flag = $(this).attr('class').substring(16);
         $('#statistics,#articleManagement,#articleComment,#articleCategories,#friendLink,#userFeedback,#privateWord').css("display","none");
         $("#" + flag).css("display","block");
@@ -24,7 +24,7 @@
 
     //填充悄悄话
     function putInAllPrivateWord(data) {
-        var privateWord = $('.superAdminInfo .privateWord');
+        var privateWord = $('.superadminInfo .privateWord');
         privateWord.empty();
         var amPanelGroup = $('<div class="am-panel-group" id="accordion"></div>');
         $.each(data['result'], function (index,obj) {
@@ -271,7 +271,7 @@
     }
 
     //点击悄悄话
-    $('.superAdminList .privateWord').click(function () {
+    $('.superadminList .privateWord').click(function () {
         $.ajax({
             type:'post',
             url:'/getAllPrivateWord',
@@ -291,11 +291,11 @@
         });
     });
     //点击反馈
-    $('.superAdminList .userFeedback').click(function () {
+    $('.superadminList .userFeedback').click(function () {
         getAllFeedback(1);
     });
     //点击文章管理
-    $('.superAdminList .articleManagement').click(function () {
+    $('.superadminList .articleManagement').click(function () {
         getArticleManagement(1);
     });
 

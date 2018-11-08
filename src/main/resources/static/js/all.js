@@ -134,7 +134,7 @@
             error:function () {
             }
         });
-        $('.weixinPublic').attr("src","https://zhy-myblog.oss-cn-shenzhen.aliyuncs.com/static/img/weixin.jpg");
+        $('.weixinPublic').attr("src","http://dwreborn.oss-cn-shanghai.aliyuncs.com/boke/blogArticles/2018-11-08/1541646143.jpeg");
     });
 
 

@@ -73,7 +73,7 @@ public class EditorControl {
         }
 
         String phone = userService.findPhoneByUsername(username);
-        /*if(!userService.isSuperAdmin(phone)){
+        /*if(!userService.isSuperadmin(phone)){
             returnJson.put("status",500);
             return returnJson;
         }*/
@@ -135,7 +135,7 @@ public class EditorControl {
             System.out.println("This user is not login");
         }
         String phone = userService.findPhoneByUsername(username);
-        if(userService.isSuperAdmin(phone)){
+        if(userService.isSuperadmin(phone)){
             return 1;
         }
         return 0;

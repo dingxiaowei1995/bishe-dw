@@ -14,11 +14,11 @@ public interface RoleConstant {
     /**
      * 亲朋好友
      */
-    int ROLE_ADMIN = 2;
+    int ROLE_admin = 2;
 
     /**
      * 我的权限
      */
-    int ROLE_SUPERADMIN = 3;
+    int ROLE_SUPERadmin = 3;
 
 }
