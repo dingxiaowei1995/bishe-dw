@@ -62,6 +62,9 @@
         success:function (data, status, xhr) {
             category = xhr.getResponseHeader("category");
         }
+    	error:function () {
+        alert("获取分类文章失败");
+    }
     });
 
     function ajaxFirst(currentPage,category1) {

@@ -33,5 +33,10 @@ public class ErrorPageControl {
         model.addAttribute("username",username);
         return "403";
     }
+    
+    public int test(int b){
+    	System.out.print(b);
+    	return b;
+    }
 
 }

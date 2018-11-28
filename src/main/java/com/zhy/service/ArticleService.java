@@ -92,8 +92,8 @@ public interface ArticleService {
     JSONObject findArticleByCategory(String category, int rows, int pageNum);
 
     /**
-     * 分页获得该归档日期下的所有文章
-     * @param archive 归档日期
+     * 分页获得该日记日期下的所有文章
+     * @param archive 日记日期
      * @param rows 一页大小
      * @param pageNum 页数
      * @return
@@ -124,9 +124,9 @@ public interface ArticleService {
     int countArticleCategoryByCategory(String category);
 
     /**
-     * 计算该归档日期文章的数目
-     * @param archive 归档日期
-     * @return 该归档日期下文章的数目
+     * 计算该日记日期文章的数目
+     * @param archive 日记日期
+     * @return 该日记日期下文章的数目
      */
     int countArticleArchiveByArchive(String archive);
 

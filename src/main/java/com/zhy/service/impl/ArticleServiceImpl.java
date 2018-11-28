@@ -65,7 +65,7 @@ public class ArticleServiceImpl implements ArticleService {
                 article.setLastArticleId(endArticleId.getArticleId());
             }
             articleMapper.insertArticle(article);
-            //判断发表文章的归档日期是否存在，不存在则插入归档日期
+            //判断发表文章的日记日期是否存在，不存在则插入日记日期
             TimeUtil timeUtil = new TimeUtil();
             String archiveName = timeUtil.timeWhippletreeToYear(article.getPublishDate().substring(0, 7));
             archiveService.addArchiveName(archiveName);

@@ -23,7 +23,7 @@ public class ArchivesControl {
     ArticleService articleService;
 
     /**
-     * 获得所有归档日期以及每个归档日期的文章数目
+     * 获得所有日记日期以及每个日记日期的文章数目
      * @return
      */
     @GetMapping("/findArchiveNameAndArticleNum")
@@ -33,7 +33,7 @@ public class ArchivesControl {
 
 
     /**
-     * 分页获得该归档日期下的文章
+     * 分页获得该日记日期下的文章
      * @param archive
      * @param request
      * @return

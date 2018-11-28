@@ -15,7 +15,7 @@ import java.util.List;
  *  
 >>>>>>> branch 'master' of https://github.com/dingxiaowei1995/bishe-dw.git
  * @Date: 2018/7/18 12:08
- * Describe: 归档sql
+ * Describe: 日记sql
  */
 @Mapper
 @Repository

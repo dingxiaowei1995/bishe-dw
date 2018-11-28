@@ -3,7 +3,7 @@
       xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity4">
 <head>
     <meta charset="UTF-8">
-    <title>admin | 友链</title>
+    <title>admin | 笔记</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Cache-Control" content="no-siteapp"/>
@@ -26,7 +26,7 @@
     <div class="header">
         <div class="am-topbar" style="margin-bottom: 0">
             <h1 class="am-topbar-brand">
-                <a href="/" class="blogTitleName"><img src="http://dwreborn.oss-cn-shanghai.aliyuncs.com/boke/blogArticles/2018-11-08/1541645888.jpeg" class="imgStyle">admin</a>
+                <a href="/" class="blogTitleName"><img src="http://dwreborn.oss-cn-shanghai.aliyuncs.com/boke/blogArticles/2018-11-28/1543373094.jpeg" class="imgStyle">admin</a>
             </h1>
             <button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-success am-show-sm-only" style="background-color: #CCCCCC;border-color: white;border-radius: 6px" data-am-collapse="{target: '#doc-topbar-collapse'}"><span class="am-sr-only">导航切换</span> <span class="am-icon-bars"></span></button>
 
@@ -34,10 +34,10 @@
                 <ul class="am-nav am-nav-pills am-topbar-nav">
                     <li><a class="top_bar" href="/" style="cursor: pointer;"><span class="fa fa-home"></span>&nbsp;首页</a></li>
                     <li><a class="top_bar" href="/categories" style="cursor: pointer;"><span class="fa fa-th"></span>&nbsp;分类</a></li>
-                    <li><a class="top_bar" href="/archives" style="cursor: pointer;"><span class="fa fa-archive"></span>&nbsp;归档</a></li>
+                    <li><a class="top_bar" href="/archives" style="cursor: pointer;"><span class="fa fa-archive"></span>&nbsp;日记</a></li>
                     <li><a class="top_bar" href="/tags" style="cursor: pointer;"><span class="fa fa-tags"></span>&nbsp;标签</a></li>
-                    <li><a class="top_bar" href="/update" style="cursor: pointer;"><span class="fa fa-calendar-plus-o"></span>&nbsp;更新</a></li>
-                    <li><a class="top_bar" href="/friendlylink" style="cursor: pointer;"><span class="fa fa-street-view"></span>&nbsp;友链</a></li>
+                   <!-- <li><a class="top_bar" href="/update" style="cursor: pointer;"><span class="fa fa-calendar-plus-o"></span>&nbsp;更新</a></li>-->
+                    <li><a class="top_bar" href="/friendlylink" style="cursor: pointer;"><span class="fa fa-street-view"></span>&nbsp;笔记</a></li>
                     <li><a class="top_bar" href="/aboutme" style="cursor: pointer;"><span class="fa fa-user"></span>&nbsp;关于我</a> </li>
                 </ul>
 
@@ -60,12 +60,12 @@
                 <div class="am-topbar-right" th:unless="${#httpServletRequest.remoteUser}">
                     <a href="/login" class="loginBtn am-btn am-btn-primary am-topbar-btn am-btn-sm" style="color: white">登录</a>
                 </div>
-                <div class="am-topbar-right writing am-hide-md-down">
+               <!--  <div class="am-topbar-right writing am-hide-md-down">
                     <a  href="/editor" target="_blank" style="text-decoration: none">
                         <img class="am-circle" src="https://zhy-myblog.oss-cn-shenzhen.aliyuncs.com/static/img/writing.png">
                         <span class="write-word">写文章</span>
                     </a>
-                </div>
+                </div> -->
 
             </div>
         </div>
@@ -76,70 +76,18 @@
                 <div class="am-u-sm-12 am-u-lg-12">
                     <div class="site-inner">
                         <div class="zhy-friendlylink-title am-animation-slide-top">
-                            <i class="fa fa-hashtag fa-lg"></i><span>著名运动员</span>
+                            <i class="fa fa-hashtag fa-lg"></i><span>个人空间-吉他视频</span>
                         </div>
                         <div class="zhy-friendlylink-author am-animation-slide-top">
                             <div class="am-u-sm-4 am-u-lg-4">
                                 <p>
                                     <i class="fa fa-unlock-alt fa-lg"></i>
-                                    <a href="https://weibo.com/lindan?is_hot=1" target="_blank">林丹</a>
-                                </p>
-                                <p>
-                                    <i class="fa fa-unlock-alt fa-lg"></i>
-                                    <a href="https://weibo.com/liuxiang?is_hot=1" target="_blank">刘翔-soulmate</a>
-                                </p>
-                                <p>
-                                    <i class="fa fa-unlock-alt fa-lg"></i>
-                                    <a href="https://weibo.com/u/5350646633?is_all=1" target="_blank">姚明</a>
-                                </p>
-                                <p>
-                                    <i class="fa fa-unlock-alt fa-lg"></i>
-                                    <a href="https://weibo.com/u/2029906001" target="_blank">苏炳添</a>
-                                </p>
-                                <p>
-                                    <i class="fa fa-unlock-alt fa-lg"></i>
-                                    <a href="https://weibo.com/u/1609648201" target="_blank">宁泽涛</a>
+                                    <a href="https://user.qzone.qq.com/625073235/infocenter?_t_=0.24209708943924335" target="_blank">吉他视频</a>
                                 </p>
                             </div>
                             <div class="am-u-sm-4 am-u-lg-4">
-                                <p>
-                                    <i class="fa fa-unlock-alt fa-lg"></i>
-                                    <a href="https://weibo.com/wuminxia?topnav=1&wvr=6&topsug=1&is_hot=1" target="_blank">吴敏霞</a>
-                                </p>
-                                <p>
-                                    <i class="fa fa-unlock-alt fa-lg"></i>
-                                    <a href=https://weibo.com/langping?topnav=1&wvr=6&topsug=1 target="_blank">郎平</a>
-                                </p>
-                                <p>
-                                    <i class="fa fa-unlock-alt fa-lg"></i>
-                                    <a href="https://weibo.com/u/5380827259?is_hot=1" target="_blank">小个邓亚萍</a>
-                                </p>
-                                <p>
-                                    <i class="fa fa-unlock-alt fa-lg"></i>
-                                    <a href="https://weibo.com/u/5600102513" target="_blank">王楠乒乓球</a>
-                                </p>
-                                <p>
-                                    <i class="fa fa-unlock-alt fa-lg"></i>
-                                    <a href="https://weibo.com/u/2133607385" target="_blank">乒乓张怡宁</a>
-                                </p>
                             </div>
                             <div class="am-u-sm-4 am-u-lg-4">
-                                <p>
-                                    <i class="fa fa-unlock-alt fa-lg"></i>
-                                    <a href="https://weibo.com/kobebryantmamba?is_hot=1" target="_blank">KobeBryant</a>
-                                </p>
-                                <p>
-                                    <i class="fa fa-unlock-alt fa-lg"></i>
-                                    <a href="https://weibo.com/dwyanewade" target="_blank">DwyaneWade</a>
-                                </p>
-                                <p>
-                                    <i class="fa fa-unlock-alt fa-lg"></i>
-                                    <a href="https://weibo.com/u/5142730902?is_all=1" target="_blank">RayAllen雷阿伦 </a>
-                                </p>
-                                <p>
-                                    <i class="fa fa-unlock-alt fa-lg"></i>
-                                    <a href="https://weibo.com/u/5926318749" target="_blank">CristianoRonaldo </a>
-                                </p>
                             </div>
                         </div>
                     </div>
@@ -147,38 +95,58 @@
                 <div class="am-u-sm-12 am-u-lg-12">
                     <div class="site-middle am-animation-slide-top">
                         <div class="zhy-friendlylink-title">
-                            <i class="fa fa-hashtag fa-lg"></i><span>友情链接</span>
+                            <i class="fa fa-hashtag fa-lg"></i><span>笔记分享</span>
                         </div>
                         <div class="zhy-friendlylink-author">
                             <div class="am-u-sm-4 am-u-lg-4">
                                 <p>
                                     <i class="fa fa-street-view fa-lg"></i>
-                                    <a href="http://sports.qq.com/" target="_blank">腾讯体育</a>
+                                    <a href="http://note.youdao.com/noteshare?id=8549fad7d93bcc5efb496b99f13e29ff" target="_blank">异常</a>
                                 </p>
                                 <p>
                                     <i class="fa fa-street-view fa-lg"></i>
-                                    <a href="http://sports.sina.com.cn/" target="_blank">新浪体育</a>
+                                    <a href="http://note.youdao.com/noteshare?id=806bd4e2a94e52022ba2826a6bc33a54" target="_blank">jvm</a>
+                                </p>
+                                <p>
+                                    <i class="fa fa-street-view fa-lg"></i>
+                                    <a href="http://note.youdao.com/noteshare?id=3a503126ef5732582d94b444d3864010" target="_blank">springboot</a>
+                                </p>
+                                <p>
+                                    <i class="fa fa-street-view fa-lg"></i>
+                                    <a href="http://note.youdao.com/noteshare?id=bf0a998b9f5fe2486e4a3fab42f6839d" target="_blank">java爬虫</a>
+                                </p>
+                                <p>
+                                    <i class="fa fa-street-view fa-lg"></i>
+                                    <a href="http://note.youdao.com/noteshare?id=3103f739d2ca3f5b77af748e1648322f" target="_blank">springmvc</a>
+                                </p>
+                                <p>
+                                    <i class="fa fa-street-view fa-lg"></i>
+                                    <a href="http://note.youdao.com/noteshare?id=056033f47fb28d05bbad1c2a1eb2c6d2" target="_blank">git</a>
                                 </p>
                             </div>
                             <div class="am-u-sm-4 am-u-lg-4">
                                 <p>
                                     <i class="fa fa-street-view fa-lg"></i>
-                                    <a href="http://sports.163.com/" target="_blank">网易体育</a>
+                                    <a href="http://note.youdao.com/noteshare?id=db80a8efb8cbeb36a69df4d89abddb3e" target="_blank">通信协议</a>
                                 </p>
                                 <p>
                                     <i class="fa fa-street-view fa-lg"></i>
-                                    <a href="http://sports.sohu.com/" target="_blank">搜狐体育</a>
+                                    <a href="http://note.youdao.com/noteshare?id=b23fff94f96f00817681a23f2c5e2d54" target="_blank">集合框架</a>
+                                </p>
+                                  <p>
+                                    <i class="fa fa-street-view fa-lg"></i>
+                                    <a href="http://note.youdao.com/noteshare?id=d759248af340a5b44fa4c826af2e65d1" target="_blank">定时任务</a>
                                 </p>
                             </div>
                             <div class="am-u-sm-4 am-u-lg-4">
-                                <p>
+                              <!--   <p>
                                     <i class="fa fa-street-view fa-lg"></i>
                                     <a href="http://sports.chinanews.com/" target="_blank">中新网体育</a>
                                 </p>
                                 <p>
                                     <i class="fa fa-street-view fa-lg"></i>
                                     <a href="http://live.qq.com/news" target="_blank">企鹅体育</a>
-                                </p>
+                                </p> -->
                             </div>
                         </div>
                     </div>
@@ -244,10 +212,9 @@
                             <i class="fa fa-hashtag fa-lg"></i><span>链接公告</span>
                         </div>
                         <div class="zhy-friendlink-info">
-                            <p>任何一个行业，如果靠自己不断去探索和挖掘的话，对于自己的成长固然重要，但是有时站在巨人的肩膀上望向前方，你会发现
-                                成功和梦想其实就在前方。</p>
-                            <p>很感谢在我对于未来迷茫时帮助过我的人，也十分感谢那些素未谋面的大佬们在工作之余为我们分享技术前沿的风景。在此衷心的感谢他们，也希望更多的人在他们的帮助下共同进步。</p>
-                            <p><u><i>如果以上链接有涉及个人隐私问题，请及时联系我进行整改。</i></u></p>
+                            <p>博客建立的时间还不是很长，后续我会慢慢完善，希望大家多多支持。</p>
+                            <p>很感谢在我对于未来迷茫时帮助过我的人，希望我们可以互相帮助，共同进步。</p>
+                            <!-- <p><u><i>如果以上链接有涉及个人隐私问题，请及时联系我进行整改。</i></u></p> -->
                         </div>
                     </div>
                 </div>
@@ -256,7 +223,7 @@
                         <div class="zhy-friendlylink-title">
                             <i class="fa fa-hashtag fa-lg"></i><span>链接描述</span>
                         </div>
-                        <div class="zhy-friendlylink-words">
+           <!--              <div class="zhy-friendlylink-words">
                             <blockquote>
                                 <ul>
                                     <li>请确认贵站可正常访问</li>
@@ -266,9 +233,9 @@
                             </blockquote>
                             <p style="font-size: 14px">
                                 本人会长期清理无法访问的链接，请保证自己的链接长期有效<br><br>
-                                有需要互换友链的朋友也可在下方给我留言。经核实后将上挂本站点 ^_^
+                                有需要互换笔记的朋友也可在下方给我留言。经核实后将上挂本站点 ^_^
                             </p>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                 <div class="am-u-sm-12 am-u-lg-12">

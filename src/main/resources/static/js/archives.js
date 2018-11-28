@@ -1,6 +1,6 @@
 
     var archive="";
-    //填充归档文章
+    //填充日记文章
     function putInArchivesArticleInfo(data){
         var categoryTimeline = $('.categoryTimeline');
         categoryTimeline.empty();
@@ -114,7 +114,7 @@
     }
     ajaxFirst(1,archive);
 
-    //获得归档日期以及该归档日期下的文章数量
+    //获得日记日期以及该日记日期下的文章数量
     $.ajax({
         type:'GET',
         url:'/findArchiveNameAndArticleNum',
@@ -144,6 +144,6 @@
             })
         },
         error:function () {
-            alert("获取归档信息失败");
+            alert("获取日记信息失败");
         }
     });

@@ -9,7 +9,7 @@ import lombok.Data;
  *  
 >>>>>>> branch 'master' of https://github.com/dingxiaowei1995/bishe-dw.git
  * @Date: 2018/7/18 11:52
- * Describe: 文章归档
+ * Describe: 文章日记
  */
 @Data
 public class Archive {
@@ -17,7 +17,7 @@ public class Archive {
     private int id;
 
     /**
-     * 归档日期
+     * 日记日期
      */
     private String archiveName;
 
