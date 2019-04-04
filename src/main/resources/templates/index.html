@@ -132,10 +132,6 @@
                     <a href="/login" class="loginBtn am-btn am-btn-primary am-topbar-btn am-btn-sm" style="color: white">登录</a>
                 </div>
                 <div class="am-topbar-right writing am-hide-md-down">
-                    <a  href="/editor" target="_blank" style="text-decoration: none">
-                        <img class="am-circle" src="https://zhy-myblog.oss-cn-shenzhen.aliyuncs.com/static/img/loading.gif" data-src="https://zhy-myblog.oss-cn-shenzhen.aliyuncs.com/static/img/writing.png">
-                        <span class="write-word">写内容</span>
-                    </a>
                 </div>
 
             </div>
@@ -238,33 +234,84 @@
                     </div>
 
                     <div class="new-comment">
-                        <div data-am-widget="list_news" class="am-list-news am-list-news-default" >
-                            <div class="am-list-news-hd am-cf">
-                                <a class="newComments">
-                                    <h2>最新评论</h2>
-                                </a>
+                         <div class="am-g">
+                            <div class="am-u-sm-5">
+                                <div class="img-title">
+                                    <img class="img" src="https://zhy-myblog.oss-cn-shenzhen.aliyuncs.com/static/img/loading.gif" data-src="https://dwreborn.oss-cn-shanghai.aliyuncs.com/boke/blogArticles/2018-11-07/1541574929.jpeg">
+                                </div>
                             </div>
-                            <div class="am-list-news-bd">
-                                <ul class="am-list">
-                                    <li class="am-g am-list-item-dated" style="height: 62px">
-
-                                    </li>
-                                    <li class="am-g am-list-item-dated" style="height: 62px">
-
-                                    </li>
-                                    <li class="am-g am-list-item-dated" style="height: 62px">
-
-                                    </li>
-                                    <li class="am-g am-list-item-dated" style="height: 62px">
-
-                                    </li>
-                                    <li class="am-g am-list-item-dated" style="height: 62px">
-
-                                    </li>
-                                </ul>
+                            <div class="am-u-sm-7" style="padding: 0 20px 0 0;">
+                                <div class="img-words">
+                                    <h3 id="name"></h3>
+                                    <small style="font-size: 13px;color: #808080ad">欢迎来到XXXX网站</small>
+                                </div>
                             </div>
-
                         </div>
+                        <div class="clear"></div>
+                        <div id="connection" style="font-size: 14px">
+                            <span style="color: #009688">微信：dingdong0801</span><br>
+                            <span style="color: #009688">QQ：625073235</span><br>
+                            <div id="follow">
+                                <button class="myCardBtn am-btn am-btn-secondary am-round attention_btn" data-am-offcanvas="{target: '#doc-oc-demo2', effect: 'push'}">关于本站的详细介绍</button>
+                            </div>
+                            <!--左侧栏-->
+                            <div id="doc-oc-demo2" class="am-offcanvas">
+                                <div class="am-offcanvas-bar">
+                                    <div class="am-offcanvas-content">
+                                        <p>
+                                           欢迎光临XX网站 <br/>
+                                            这是一条测试页面<br/>
+                                            这是一条测试页面<br><br>
+
+                                            这是一条测试页面<br>
+                                           这是一条测试页面<br>
+                                            这是一条测试页面<br>
+                                            这是一条测试页面
+                                        </p>
+
+                                        <div class="halving-line">
+                                            <i class="fa fa-hand-o-down fa-lg" ></i>
+                                            <i class="fa fa-hand-o-down fa-lg" ></i>
+                                            <i class="fa fa-hand-o-down fa-lg" ></i>
+                                        </div>
+                                        <div class="halving-line-words">
+                                            <p>这是一条测试页面<br>这是一条测试页面</p>
+                                        </div>
+                                        <hr data-am-widget="divider" style="width: 50%" class="am-divider am-divider-dashed" />
+                                        <div class="zhy-qq-weixin">
+                                            <!-- <div class="zhy-qq-box">
+                                                <p>QQ</p>
+                                                <img src=""  class="qq_code am-img-thumbnail am-radius">
+                                            </div>
+                                            <div class="zhy-weixin-box">
+                                                <p>微信</p>
+                                                <img src=""  class="weixin_code am-img-thumbnail am-radius">
+                                            </div> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <!-- <div class="icons-row">
+                            <div class="icons">
+                                <div class="icon">
+                                    <a href="https://github.com/zhyocean" target="_blank" class="am-icon-github am-icon-md " title="GitHub" data-am-popover="{content: 'GitHub', trigger: 'hover focus'}"></a>
+                                </div>
+                                <div class="icon">
+                                    <a href="https://gitee.com/zhyocean" class="am-icon-gg am-icon-md" target="_blank" title="码云" data-am-popover="{content: '码云', trigger: 'hover focus'}"></a>
+                                </div>
+                                <div class="icon">
+                                    <a href="https://weibo.com/5313691144" target="_blank" class="am-icon-weibo am-icon-md" title="微博" data-am-popover="{content: '微博', trigger: 'hover focus'}"></a>
+                                </div>
+                                <div class="icon">
+                                    <a href="https://blog.csdn.net/swpu_ocean" target="_blank" title="CSDN"><img src="https://zhy-myblog.oss-cn-shenzhen.aliyuncs.com/static/img/csdn.jpg" style="width: 30px" data-am-popover="{content: 'CSDN', trigger: 'hover focus'}"></a>
+                                </div>
+                                <div class="icon">
+                                    <a href="http://www.swpuiot.com" target="_blank" title="翼灵物联工作室"><img src="https://zhy-myblog.oss-cn-shenzhen.aliyuncs.com/static/img/yilinglogo.png" style="width: 30px" data-am-popover="{content: '翼灵物联工作室', trigger: 'hover focus'}"></a>
+                                </div>
+                            </div>
+                        </div> -->
                     </div>
 
                     <div class="new-leaveWord">
