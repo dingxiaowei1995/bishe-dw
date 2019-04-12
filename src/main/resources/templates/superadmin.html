@@ -25,7 +25,7 @@
 <div class="header">
     <div class="am-topbar" style="margin-bottom: 0">
         <h1 class="am-topbar-brand">
-            <a href="/" class="blogTitleName"><img src="https://dwreborn.oss-cn-shanghai.aliyuncs.com/boke/blogArticles/2018-11-07/1541574929.jpeg" class="imgStyle">admin</a>
+            <a href="/" class="blogTitleName"><img src="https://dwreborn.oss-cn-shanghai.aliyuncs.com/boke/blogArticles/2019-04-12/1555054738.png" class="imgStyle">admin</a>
         </h1>
         <button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-success am-show-sm-only" style="background-color: #CCCCCC;border-color: white;border-radius: 6px" data-am-collapse="{target: '#doc-topbar-collapse'}"><span class="am-sr-only">导航切换</span> <span class="am-icon-bars"></span></button>
 
@@ -33,11 +33,11 @@
             <ul class="am-nav am-nav-pills am-topbar-nav">
                 <li><a class="top_bar" href="/" style="cursor: pointer;"><span class="fa fa-home"></span>&nbsp;首页</a></li>
                 <li><a class="top_bar" href="/categories" style="cursor: pointer;"><span class="fa fa-th"></span>&nbsp;分类</a></li>
-                <li><a class="top_bar" href="/archives" style="cursor: pointer;"><span class="fa fa-archive"></span>&nbsp;归档</a></li>
+                <!-- <li><a class="top_bar" href="/archives" style="cursor: pointer;"><span class="fa fa-archive"></span>&nbsp;归档</a></li> -->
                 <li><a class="top_bar" href="/tags" style="cursor: pointer;"><span class="fa fa-tags"></span>&nbsp;标签</a></li>
-                <li><a class="top_bar" href="/update" style="cursor: pointer;"><span class="fa fa-calendar-plus-o"></span>&nbsp;更新</a></li>
-                <li><a class="top_bar" href="/friendlylink" style="cursor: pointer;"><span class="fa fa-street-view"></span>&nbsp;友链</a></li>
-                <li><a class="top_bar" href="/aboutme" style="cursor: pointer;"><span class="fa fa-user"></span>&nbsp;关于我</a> </li>
+                <li><!-- <li><a class="top_bar" href="/archives" style="cursor: pointer;"><span class="fa fa-archive"></span>&nbsp;归档</a></li> --></li>
+                
+                
             </ul>
 
             <div class="am-topbar-right" th:if="${#httpServletRequest.remoteUser}">
@@ -81,19 +81,18 @@
                     <a class="am-cf" data-am-collapse="{target: '#collapse-nav'}"><span class="am-icon-file"></span> 文章管理 <span class="am-icon-angle-right am-fr am-margin-right"></span></a>
                     <ul class="am-list am-collapse admin-sidebar-sub am-in" id="collapse-nav">
                         <li class="superAdminClick articleManagement"><a class="am-cf"><span class="am-icon-check"></span> 文章管理<span class="am-icon-star am-fr am-margin-right admin-icon-yellow"></span></a></li>
-                        <li class="superAdminClick articleComment"><a><span class="am-icon-puzzle-piece"></span> 评论管理<span class="am-badge am-badge-secondary am-margin-right am-fr">24</span></a></li>
-                        <li class="superAdminClick articleCategories"><a><span class="am-icon-th"></span> 分类管理</a></li>
+                       <!--  <li class="superAdminClick articleComment"><a><span class="am-icon-puzzle-piece"></span> 评论管理<span class="am-badge am-badge-secondary am-margin-right am-fr">24</span></a></li> -->
+               <!--          <li class="superAdminClick articleCategories"><a><span class="am-icon-th"></span> 分类管理</a></li> -->
                     </ul>
                 </li>
-                <li class="superAdminClick friendLink"><a><span class="am-icon-users"></span> 友链管理</a></li>
+                <!-- <li class="superAdminClick friendLink"><a><span class="am-icon-users"></span> 友链管理</a></li> -->
                 <li class="superAdminClick userFeedback"><a><span class="am-icon-table"></span> 反馈</a></li>
-                <li class="superAdminClick privateWord" style="width: 100%"><a><span class="am-icon-pencil-square-o"></span> 悄悄话</a></li>
+                <!-- <li class="superAdminClick privateWord" style="width: 100%"><a><span class="am-icon-pencil-square-o"></span> 悄悄话</a></li> -->
             </ul>
 
             <div class="am-panel am-panel-default admin-sidebar-panel">
                 <div class="am-panel-bd">
                     <p><span class="am-icon-bookmark"></span> 公告</p>
-                    <p>时光静好，与君语；细水流年，与君同。—— 张先森</p>
                 </div>
             </div>
 
@@ -126,7 +125,7 @@
                                     </tr>
                                     </thead>
                                     <tbody class="articleManagementTable">
-                                    <tr><td><a href="#">关于此博客，我有话哔哔</a></td><td>2018-07-30</td><td><a href="#">我的故事</a></td> <td><span class="am-badge am-badge-success">20</span></td>
+                                    <tr><td><a href="#">文章管理</a></td><td>2019-04-30</td><td><a href="#">文章</a></td> <td><span class="am-badge am-badge-success">20</span></td>
                                         <td>
                                             <div class="am-dropdown" data-am-dropdown>
                                                 <button class="articleManagementBtn articleEditor am-btn am-btn-secondary">编辑</button>
@@ -134,7 +133,7 @@
                                             </div>
                                         </td>
                                     </tr>
-                                    <tr><td>关于此博客，我有话哔哔关于此博客，我有话哔哔</td><td>2018-07-30</td><td><a href="#">我的故事</a></td> <td><span class="am-badge am-badge-success">20</span></td>
+                                    <tr><td>文章管理</td><td>2018-03-20</td><td><a href="#">文章</a></td> <td><span class="am-badge am-badge-success">20</span></td>
                                         <td>
                                             <div class="am-dropdown" data-am-dropdown>
                                                 <button class="articleManagementBtn articleEditor am-btn am-btn-secondary">编辑</button>
@@ -142,7 +141,7 @@
                                             </div>
                                         </td>
                                     </tr>
-                                    <tr><td>关于此博客，我有话哔哔</td><td>2018-07-30</td><td><a href="#">我的故事</a></td> <td><span class="am-badge am-badge-success">20</span></td>
+                                    <tr><td>文章管理</td><td>2018-05-30</td><td><a href="#">文章</a></td> <td><span class="am-badge am-badge-success">20</span></td>
                                         <td>
                                             <div class="am-dropdown" data-am-dropdown>
                                                 <button class="articleManagementBtn articleEditor am-btn am-btn-secondary">编辑</button>

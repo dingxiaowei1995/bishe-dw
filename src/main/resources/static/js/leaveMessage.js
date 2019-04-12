@@ -350,7 +350,7 @@
         var leaveMessageContent = $('#comment').val();
         var url = window.location.pathname;
         if(leaveMessageContent == ""){
-            alert("客官，你还没说两句呢！");
+            alert("请输入信息");
         } else {
             $.ajax({
                 type: 'POST',

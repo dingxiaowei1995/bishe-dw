@@ -8,7 +8,7 @@
     $('#commentBtn').click(function () {
         var commentContent = $('#comment').val();
         if(commentContent == ""){
-            alert("客官，你还没说两句呢！");
+            alert("欢迎评论！");
         } else {
             $.ajax({
                 type: 'POST',

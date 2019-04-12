@@ -27,7 +27,7 @@
     <div class="header">
         <div class="am-topbar" style="margin-bottom: 0">
             <h1 class="am-topbar-brand">
-                <a href="/" class="blogTitleName"><img src="https://dwreborn.oss-cn-shanghai.aliyuncs.com/boke/blogArticles/2018-11-07/1541574929.jpeg" class="imgStyle">admin</a>
+                <a href="/" class="blogTitleName"><img src="https://dwreborn.oss-cn-shanghai.aliyuncs.com/boke/blogArticles/2019-04-12/1555054738.png" class="imgStyle">admin</a>
             </h1>
             <button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-success am-show-sm-only" style="background-color: #CCCCCC;border-color: white;border-radius: 6px" data-am-collapse="{target: '#doc-topbar-collapse'}"><span class="am-sr-only">导航切换</span> <span class="am-icon-bars"></span></button>
 
@@ -35,11 +35,11 @@
                 <ul class="am-nav am-nav-pills am-topbar-nav">
                     <li><a class="top_bar" href="/" style="cursor: pointer;"><span class="fa fa-home"></span>&nbsp;首页</a></li>
                     <li><a class="top_bar" href="/categories" style="cursor: pointer;"><span class="fa fa-th"></span>&nbsp;分类</a></li>
-                    <li><a class="top_bar" href="/archives" style="cursor: pointer;"><span class="fa fa-archive"></span>&nbsp;归档</a></li>
+                    <!-- <li><a class="top_bar" href="/archives" style="cursor: pointer;"><span class="fa fa-archive"></span>&nbsp;归档</a></li> -->
                     <li><a class="top_bar" href="/tags" style="cursor: pointer;"><span class="fa fa-tags"></span>&nbsp;标签</a></li>
-                    <li><a class="top_bar" href="/update" style="cursor: pointer;"><span class="fa fa-calendar-plus-o"></span>&nbsp;更新</a></li>
-                    <li><a class="top_bar" href="/friendlylink" style="cursor: pointer;"><span class="fa fa-street-view"></span>&nbsp;友链</a></li>
-                    <li><a class="top_bar" href="/aboutme" style="cursor: pointer;"><span class="fa fa-user"></span>&nbsp;关于我</a> </li>
+                    <li><!-- <li><a class="top_bar" href="/archives" style="cursor: pointer;"><span class="fa fa-archive"></span>&nbsp;归档</a></li> --></li>
+                    
+                    
                 </ul>
 
                 <div class="am-topbar-right" th:if="${#httpServletRequest.remoteUser}">
@@ -121,7 +121,7 @@
                         <div class="comment" style="margin: 100px auto 50px">
                             <div class="comment-top">
                                 <div class="comment-top-input" th:if="${#httpServletRequest.remoteUser}">
-                                    <textarea id="comment" placeholder="客官，来说两句吧..."></textarea>
+                                    <textarea id="comment" placeholder="欢迎评论哟！"></textarea>
                                 </div>
                                 <div class="comment-top-input" th:unless="${#httpServletRequest.remoteUser}">
                                     <div class="goToLogin">
